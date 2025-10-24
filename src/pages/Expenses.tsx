@@ -8,38 +8,38 @@ import { BarChart, Bar, LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, L
 import { toast } from "sonner";
 
 const monthlyData = [
-  { month: "Jan", medicines: 1200, consultations: 1500, tests: 800 },
-  { month: "Feb", medicines: 950, consultations: 0, tests: 0 },
-  { month: "Mar", medicines: 1100, consultations: 2000, tests: 1200 },
+  { month: "Jan", medicines: 2100, consultations: 2500, tests: 1200 },
+  { month: "Feb", medicines: 1850, consultations: 0, tests: 0 },
+  { month: "Mar", medicines: 2350, consultations: 3000, tests: 1800 },
 ];
 
 const yearlyData = [
-  { month: "Jan", total: 3500 },
-  { month: "Feb", total: 950 },
-  { month: "Mar", total: 4300 },
-  { month: "Apr", total: 2200 },
-  { month: "May", total: 3800 },
-  { month: "Jun", total: 2900 },
-  { month: "Jul", total: 3200 },
-  { month: "Aug", total: 2700 },
-  { month: "Sep", total: 3900 },
-  { month: "Oct", total: 2500 },
-  { month: "Nov", total: 3100 },
-  { month: "Dec", total: 4200 },
+  { month: "Jan", total: 5800 },
+  { month: "Feb", total: 1850 },
+  { month: "Mar", total: 7150 },
+  { month: "Apr", total: 3600 },
+  { month: "May", total: 6200 },
+  { month: "Jun", total: 4800 },
+  { month: "Jul", total: 5400 },
+  { month: "Aug", total: 4500 },
+  { month: "Sep", total: 6400 },
+  { month: "Oct", total: 4200 },
+  { month: "Nov", total: 5100 },
+  { month: "Dec", total: 6900 },
 ];
 
 const categoryData = [
-  { name: "Medicines", value: 16800, color: "hsl(270 75% 60%)" },
-  { name: "Consultations", value: 11200, color: "hsl(330 70% 55%)" },
-  { name: "Lab Tests", value: 7400, color: "hsl(290 60% 75%)" },
+  { name: "Medicines", value: 28400, color: "hsl(270 75% 60%)" },
+  { name: "Consultations", value: 19200, color: "hsl(330 70% 55%)" },
+  { name: "Lab Tests", value: 12800, color: "hsl(290 60% 75%)" },
 ];
 
 const recentExpenses = [
-  { id: 1, date: "Mar 10", description: "Paracetamol 500mg", category: "Medicine", amount: 25 },
-  { id: 2, date: "Mar 8", description: "Dr. Consultation - Cardiologist", category: "Consultation", amount: 1200 },
-  { id: 3, date: "Mar 5", description: "Complete Blood Count", category: "Lab Test", amount: 350 },
-  { id: 4, date: "Mar 3", description: "Vitamin D3 Supplement", category: "Medicine", amount: 180 },
-  { id: 5, date: "Mar 1", description: "Lipid Profile Test", category: "Lab Test", amount: 800 },
+  { id: 1, date: "Mar 12", description: "Aspirin 75mg", category: "Medicine", amount: 45 },
+  { id: 2, date: "Mar 10", description: "Dr. Consultation - Orthopedic", category: "Consultation", amount: 1800 },
+  { id: 3, date: "Mar 7", description: "Thyroid Profile", category: "Lab Test", amount: 550 },
+  { id: 4, date: "Mar 5", description: "Omega-3 Fish Oil", category: "Medicine", amount: 320 },
+  { id: 5, date: "Mar 2", description: "HbA1c Test", category: "Lab Test", amount: 950 },
 ];
 
 const Expenses = () => {
@@ -84,8 +84,8 @@ const Expenses = () => {
                 </div>
               </div>
               <p className="text-sm text-muted-foreground mb-1">Medicines</p>
-              <p className="text-3xl font-bold">₹16,800</p>
-              <p className="text-xs text-secondary mt-2">48% of total</p>
+              <p className="text-3xl font-bold">₹28,400</p>
+              <p className="text-xs text-secondary mt-2">47% of total</p>
             </CardContent>
           </Card>
 
@@ -97,7 +97,7 @@ const Expenses = () => {
                 </div>
               </div>
               <p className="text-sm text-muted-foreground mb-1">Consultations</p>
-              <p className="text-3xl font-bold">₹11,200</p>
+              <p className="text-3xl font-bold">₹19,200</p>
               <p className="text-xs text-secondary mt-2">32% of total</p>
             </CardContent>
           </Card>
@@ -110,8 +110,8 @@ const Expenses = () => {
                 </div>
               </div>
               <p className="text-sm text-muted-foreground mb-1">Lab Tests</p>
-              <p className="text-3xl font-bold">₹7,400</p>
-              <p className="text-xs text-secondary mt-2">20% of total</p>
+              <p className="text-3xl font-bold">₹12,800</p>
+              <p className="text-xs text-secondary mt-2">21% of total</p>
             </CardContent>
           </Card>
         </div>

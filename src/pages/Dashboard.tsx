@@ -10,9 +10,9 @@ import { Badge } from "@/components/ui/badge";
 const Dashboard = () => {
   const navigate = useNavigate();
   const [reminders] = useState([
-    { id: 1, title: "Take Metformin", time: "9:00 AM", type: "medicine" },
-    { id: 2, title: "BP Check-up", time: "Tomorrow, 10:00 AM", type: "appointment" },
-    { id: 3, title: "Blood Test", time: "Mar 15, 2025", type: "test" },
+    { id: 1, title: "Take Aspirin", time: "8:00 AM", type: "medicine" },
+    { id: 2, title: "Cardiology Consultation", time: "Tomorrow, 2:30 PM", type: "appointment" },
+    { id: 3, title: "ECG Test", time: "Mar 18, 2025", type: "test" },
   ]);
 
   const quickActions = [
@@ -65,30 +65,30 @@ const Dashboard = () => {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             <HealthSummaryCard
               title="Blood Pressure"
-              value="118/75"
+              value="125/82"
               unit="mmHg"
-              status="normal"
-              icon={TrendingUp}
-              trend="down"
-            />
-            <HealthSummaryCard
-              title="Blood Sugar"
-              value="102"
-              unit="mg/dL"
               status="normal"
               icon={TrendingUp}
               trend="stable"
             />
             <HealthSummaryCard
+              title="Blood Sugar"
+              value="95"
+              unit="mg/dL"
+              status="normal"
+              icon={TrendingUp}
+              trend="down"
+            />
+            <HealthSummaryCard
               title="Monthly Expense"
-              value="₹5,680"
+              value="₹8,240"
               status="normal"
               icon={TrendingUp}
               trend="up"
             />
             <HealthSummaryCard
               title="Active Meds"
-              value="5"
+              value="3"
               status="normal"
               icon={Pill}
             />
@@ -172,16 +172,16 @@ const Dashboard = () => {
               </CardHeader>
               <CardContent className="space-y-2">
                 <div className="flex justify-between text-sm">
-                  <span className="text-muted-foreground">Paracetamol 500mg</span>
-                  <span className="font-medium">₹25</span>
+                  <span className="text-muted-foreground">Aspirin 75mg</span>
+                  <span className="font-medium">₹45</span>
                 </div>
                 <div className="flex justify-between text-sm">
-                  <span className="text-muted-foreground">Vitamin D3</span>
-                  <span className="font-medium">₹180</span>
+                  <span className="text-muted-foreground">Omega-3 Capsules</span>
+                  <span className="font-medium">₹320</span>
                 </div>
                 <div className="flex justify-between text-sm">
-                  <span className="text-muted-foreground">Metformin 500mg</span>
-                  <span className="font-medium">₹95</span>
+                  <span className="text-muted-foreground">Atorvastatin 10mg</span>
+                  <span className="font-medium">₹150</span>
                 </div>
               </CardContent>
             </Card>
@@ -192,12 +192,12 @@ const Dashboard = () => {
               </CardHeader>
               <CardContent className="space-y-2">
                 <div className="flex justify-between text-sm">
-                  <span className="text-muted-foreground">Complete Blood Count</span>
-                  <Badge variant="secondary" className="text-xs">Mar 15</Badge>
+                  <span className="text-muted-foreground">Thyroid Function Test</span>
+                  <Badge variant="secondary" className="text-xs">Mar 18</Badge>
                 </div>
                 <div className="flex justify-between text-sm">
-                  <span className="text-muted-foreground">Lipid Profile</span>
-                  <Badge variant="secondary" className="text-xs">Mar 20</Badge>
+                  <span className="text-muted-foreground">HbA1c Test</span>
+                  <Badge variant="secondary" className="text-xs">Mar 25</Badge>
                 </div>
               </CardContent>
             </Card>

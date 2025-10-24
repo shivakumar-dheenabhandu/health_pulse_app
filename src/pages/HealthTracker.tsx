@@ -10,22 +10,22 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { toast } from "sonner";
 
 const mockData = [
-  { date: "Jan 1", bp: 120, sugar: 95 },
-  { date: "Jan 5", bp: 118, sugar: 92 },
-  { date: "Jan 10", bp: 122, sugar: 98 },
-  { date: "Jan 15", bp: 119, sugar: 94 },
-  { date: "Jan 20", bp: 121, sugar: 96 },
-  { date: "Jan 25", bp: 117, sugar: 91 },
-  { date: "Jan 30", bp: 120, sugar: 95 },
+  { date: "Jan 1", bp: 128, sugar: 108 },
+  { date: "Jan 5", bp: 124, sugar: 105 },
+  { date: "Jan 10", bp: 130, sugar: 112 },
+  { date: "Jan 15", bp: 126, sugar: 107 },
+  { date: "Jan 20", bp: 129, sugar: 110 },
+  { date: "Jan 25", bp: 123, sugar: 103 },
+  { date: "Jan 30", bp: 127, sugar: 109 },
 ];
 
 const yearlyData = [
-  { month: "Jan", bp: 119, sugar: 94 },
-  { month: "Feb", bp: 120, sugar: 95 },
-  { month: "Mar", bp: 118, sugar: 93 },
-  { month: "Apr", bp: 121, sugar: 96 },
-  { month: "May", bp: 119, sugar: 94 },
-  { month: "Jun", bp: 120, sugar: 95 },
+  { month: "Jan", bp: 127, sugar: 108 },
+  { month: "Feb", bp: 125, sugar: 106 },
+  { month: "Mar", bp: 123, sugar: 104 },
+  { month: "Apr", bp: 129, sugar: 111 },
+  { month: "May", bp: 126, sugar: 107 },
+  { month: "Jun", bp: 128, sugar: 109 },
 ];
 
 const HealthTracker = () => {
@@ -102,7 +102,7 @@ const HealthTracker = () => {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 animate-fade-in">
           <Card className="card-shadow border-0">
             <CardContent className="p-4 text-center">
-              <div className="text-3xl font-bold text-primary mb-1">119</div>
+              <div className="text-3xl font-bold text-primary mb-1">127</div>
               <p className="text-xs text-muted-foreground">Avg BP (Systolic)</p>
               <div className="flex items-center justify-center mt-2 text-secondary text-xs">
                 <TrendingUp className="w-3 h-3 mr-1" />
@@ -113,7 +113,7 @@ const HealthTracker = () => {
 
           <Card className="card-shadow border-0">
             <CardContent className="p-4 text-center">
-              <div className="text-3xl font-bold text-primary mb-1">78</div>
+              <div className="text-3xl font-bold text-primary mb-1">85</div>
               <p className="text-xs text-muted-foreground">Avg BP (Diastolic)</p>
               <div className="flex items-center justify-center mt-2 text-secondary text-xs">
                 <TrendingUp className="w-3 h-3 mr-1" />
@@ -124,7 +124,7 @@ const HealthTracker = () => {
 
           <Card className="card-shadow border-0">
             <CardContent className="p-4 text-center">
-              <div className="text-3xl font-bold text-secondary mb-1">94</div>
+              <div className="text-3xl font-bold text-secondary mb-1">108</div>
               <p className="text-xs text-muted-foreground">Avg Sugar (mg/dL)</p>
               <div className="flex items-center justify-center mt-2 text-secondary text-xs">
                 <TrendingUp className="w-3 h-3 mr-1" />
@@ -135,7 +135,7 @@ const HealthTracker = () => {
 
           <Card className="card-shadow border-0">
             <CardContent className="p-4 text-center">
-              <div className="text-3xl font-bold text-primary mb-1">42</div>
+              <div className="text-3xl font-bold text-primary mb-1">35</div>
               <p className="text-xs text-muted-foreground">Total Readings</p>
               <div className="flex items-center justify-center mt-2 text-muted-foreground text-xs">
                 This Month

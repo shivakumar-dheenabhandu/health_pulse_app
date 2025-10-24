@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import { Heart } from "lucide-react";
+import { Hospital } from "lucide-react";
 
 const Splash = () => {
   const navigate = useNavigate();
@@ -18,10 +18,10 @@ const Splash = () => {
       <div className="animate-scale-in">
         <div className="flex items-center justify-center mb-6">
           <div className="bg-white/20 backdrop-blur-sm p-6 rounded-3xl">
-            <Heart className="w-20 h-20 text-white" strokeWidth={2} />
+            <Hospital className="w-20 h-20 text-white" strokeWidth={2} />
           </div>
         </div>
-        <h1 className="text-5xl font-bold text-white mb-3 text-center">Lala Healthcare</h1>
+        <h1 className="text-5xl font-bold text-white mb-3 text-center">Health Pulse</h1>
         <p className="text-xl text-white/90 text-center font-medium">Your Health, Simplified</p>
       </div>
       

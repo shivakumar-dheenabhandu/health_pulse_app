@@ -5,7 +5,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { Heart } from "lucide-react";
+import { Hospital } from "lucide-react";
 import { toast } from "sonner";
 
 const Auth = () => {
@@ -29,13 +29,13 @@ const Auth = () => {
       <div className="w-full max-w-md animate-fade-in">
         <div className="flex items-center justify-center mb-8">
           <div className="bg-primary/10 p-4 rounded-2xl">
-            <Heart className="w-12 h-12 text-primary" strokeWidth={2} />
+            <Hospital className="w-12 h-12 text-primary" strokeWidth={2} />
           </div>
         </div>
         
         <Card className="card-shadow border-0">
           <CardHeader>
-            <CardTitle className="text-2xl text-center">Welcome to Lala Healthcare</CardTitle>
+            <CardTitle className="text-2xl text-center">Welcome to Health Pulse</CardTitle>
             <CardDescription className="text-center">Your personal health companion</CardDescription>
           </CardHeader>
           <CardContent>
