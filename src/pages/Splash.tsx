@@ -21,7 +21,7 @@ const Splash = () => {
             <Heart className="w-20 h-20 text-white" strokeWidth={2} />
           </div>
         </div>
-        <h1 className="text-5xl font-bold text-white mb-3 text-center">HealSync</h1>
+        <h1 className="text-5xl font-bold text-white mb-3 text-center">Lala Healthcare</h1>
         <p className="text-xl text-white/90 text-center font-medium">Your Health, Simplified</p>
       </div>
       

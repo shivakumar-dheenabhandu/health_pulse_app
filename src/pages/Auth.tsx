@@ -35,7 +35,7 @@ const Auth = () => {
         
         <Card className="card-shadow border-0">
           <CardHeader>
-            <CardTitle className="text-2xl text-center">Welcome to HealSync</CardTitle>
+            <CardTitle className="text-2xl text-center">Welcome to Lala Healthcare</CardTitle>
             <CardDescription className="text-center">Your personal health companion</CardDescription>
           </CardHeader>
           <CardContent>
