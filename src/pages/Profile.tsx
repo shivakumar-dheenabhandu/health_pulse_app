@@ -40,11 +40,11 @@ const Profile = () => {
             <div className="flex flex-col sm:flex-row items-center sm:items-start space-y-4 sm:space-y-0 sm:space-x-6 mb-6">
               <Avatar className="w-24 h-24">
                 <AvatarFallback className="gradient-primary text-white text-3xl font-bold">
-                  JD
+                  S
                 </AvatarFallback>
               </Avatar>
               <div className="flex-1 text-center sm:text-left">
-                <h2 className="text-2xl font-bold mb-1">John Doe</h2>
+                <h2 className="text-2xl font-bold mb-1">Shiva</h2>
                 <p className="text-muted-foreground mb-3">Member since January 2025</p>
                 <Button variant="outline" size="sm">
                   <Settings className="w-4 h-4 mr-2" />
@@ -60,7 +60,7 @@ const Profile = () => {
                 <User className="w-5 h-5 text-primary" />
                 <div className="flex-1">
                   <p className="text-xs text-muted-foreground">Full Name</p>
-                  <p className="font-medium">John Doe</p>
+                  <p className="font-medium">Shiva</p>
                 </div>
               </div>
 
@@ -84,7 +84,7 @@ const Profile = () => {
                 <Calendar className="w-5 h-5 text-primary" />
                 <div className="flex-1">
                   <p className="text-xs text-muted-foreground">Date of Birth</p>
-                  <p className="font-medium">January 15, 1990</p>
+                  <p className="font-medium">February 3, 1995</p>
                 </div>
               </div>
 
