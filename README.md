@@ -2,7 +2,7 @@
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/b292afc8-21c2-4384-b31a-692a91e1d469
+**URL**: https://healsync-care-hub-35221.lovable.app
 
 ## How can I edit this code?
 
@@ -10,7 +10,7 @@ There are several ways of editing your application.
 
 **Use Lovable**
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/b292afc8-21c2-4384-b31a-692a91e1d469) and start prompting.
+Simply visit the [Lovable Project](https://healsync-care-hub-35221.lovable.app) and start prompting.
 
 Changes made via Lovable will be committed automatically to this repo.
 
