@@ -68,7 +68,7 @@ const Profile = () => {
                 <Mail className="w-5 h-5 text-primary" />
                 <div className="flex-1">
                   <p className="text-xs text-muted-foreground">Email</p>
-                  <p className="font-medium">john.doe@example.com</p>
+                  <p className="font-medium">shiva1123@gmail.com</p>
                 </div>
               </div>
 
