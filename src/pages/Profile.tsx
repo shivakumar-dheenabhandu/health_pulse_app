@@ -92,7 +92,7 @@ const Profile = () => {
                 <MapPin className="w-5 h-5 text-primary" />
                 <div className="flex-1">
                   <p className="text-xs text-muted-foreground">Address</p>
-                  <p className="font-medium">123 Health Street, Wellness City, 560001</p>
+                  <p className="font-medium">45 MG Road, Koramangala, Bangalore, 560034</p>
                 </div>
               </div>
             </div>
