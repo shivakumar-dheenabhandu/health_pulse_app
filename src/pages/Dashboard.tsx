@@ -65,30 +65,30 @@ const Dashboard = () => {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             <HealthSummaryCard
               title="Blood Pressure"
-              value="120/80"
+              value="118/75"
               unit="mmHg"
-              status="normal"
-              icon={TrendingUp}
-              trend="stable"
-            />
-            <HealthSummaryCard
-              title="Blood Sugar"
-              value="95"
-              unit="mg/dL"
               status="normal"
               icon={TrendingUp}
               trend="down"
             />
             <HealthSummaryCard
+              title="Blood Sugar"
+              value="102"
+              unit="mg/dL"
+              status="normal"
+              icon={TrendingUp}
+              trend="stable"
+            />
+            <HealthSummaryCard
               title="Monthly Expense"
-              value="₹4,250"
+              value="₹5,680"
               status="normal"
               icon={TrendingUp}
               trend="up"
             />
             <HealthSummaryCard
               title="Active Meds"
-              value="3"
+              value="5"
               status="normal"
               icon={Pill}
             />
