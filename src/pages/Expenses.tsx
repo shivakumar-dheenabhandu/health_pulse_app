@@ -29,9 +29,9 @@ const yearlyData = [
 ];
 
 const categoryData = [
-  { name: "Medicines", value: 12500, color: "hsl(207 77% 51%)" },
-  { name: "Consultations", value: 8500, color: "hsl(134 43% 45%)" },
-  { name: "Lab Tests", value: 5200, color: "hsl(134 38% 72%)" },
+  { name: "Medicines", value: 16800, color: "hsl(270 75% 60%)" },
+  { name: "Consultations", value: 11200, color: "hsl(330 70% 55%)" },
+  { name: "Lab Tests", value: 7400, color: "hsl(290 60% 75%)" },
 ];
 
 const recentExpenses = [
@@ -84,7 +84,7 @@ const Expenses = () => {
                 </div>
               </div>
               <p className="text-sm text-muted-foreground mb-1">Medicines</p>
-              <p className="text-3xl font-bold">₹12,500</p>
+              <p className="text-3xl font-bold">₹16,800</p>
               <p className="text-xs text-secondary mt-2">48% of total</p>
             </CardContent>
           </Card>
@@ -97,8 +97,8 @@ const Expenses = () => {
                 </div>
               </div>
               <p className="text-sm text-muted-foreground mb-1">Consultations</p>
-              <p className="text-3xl font-bold">₹8,500</p>
-              <p className="text-xs text-secondary mt-2">33% of total</p>
+              <p className="text-3xl font-bold">₹11,200</p>
+              <p className="text-xs text-secondary mt-2">32% of total</p>
             </CardContent>
           </Card>
 
@@ -110,8 +110,8 @@ const Expenses = () => {
                 </div>
               </div>
               <p className="text-sm text-muted-foreground mb-1">Lab Tests</p>
-              <p className="text-3xl font-bold">₹5,200</p>
-              <p className="text-xs text-secondary mt-2">19% of total</p>
+              <p className="text-3xl font-bold">₹7,400</p>
+              <p className="text-xs text-secondary mt-2">20% of total</p>
             </CardContent>
           </Card>
         </div>
@@ -176,12 +176,12 @@ const Expenses = () => {
                     <Legend />
                     {viewType === "monthly" ? (
                       <>
-                        <Line type="monotone" dataKey="medicines" stroke="hsl(207 77% 51%)" strokeWidth={2} name="Medicines" />
-                        <Line type="monotone" dataKey="consultations" stroke="hsl(134 43% 45%)" strokeWidth={2} name="Consultations" />
-                        <Line type="monotone" dataKey="tests" stroke="hsl(134 38% 72%)" strokeWidth={2} name="Tests" />
+                        <Line type="monotone" dataKey="medicines" stroke="hsl(270 75% 60%)" strokeWidth={2} name="Medicines" />
+                        <Line type="monotone" dataKey="consultations" stroke="hsl(330 70% 55%)" strokeWidth={2} name="Consultations" />
+                        <Line type="monotone" dataKey="tests" stroke="hsl(290 60% 75%)" strokeWidth={2} name="Tests" />
                       </>
                     ) : (
-                      <Line type="monotone" dataKey="total" stroke="hsl(207 77% 51%)" strokeWidth={3} name="Total Expenses" />
+                      <Line type="monotone" dataKey="total" stroke="hsl(270 75% 60%)" strokeWidth={3} name="Total Expenses" />
                     )}
                   </LineChart>
                 </ResponsiveContainer>
@@ -201,9 +201,9 @@ const Expenses = () => {
                       }}
                     />
                     <Legend />
-                    <Bar dataKey="medicines" fill="hsl(207 77% 51%)" name="Medicines" radius={[8, 8, 0, 0]} />
-                    <Bar dataKey="consultations" fill="hsl(134 43% 45%)" name="Consultations" radius={[8, 8, 0, 0]} />
-                    <Bar dataKey="tests" fill="hsl(134 38% 72%)" name="Tests" radius={[8, 8, 0, 0]} />
+                    <Bar dataKey="medicines" fill="hsl(270 75% 60%)" name="Medicines" radius={[8, 8, 0, 0]} />
+                    <Bar dataKey="consultations" fill="hsl(330 70% 55%)" name="Consultations" radius={[8, 8, 0, 0]} />
+                    <Bar dataKey="tests" fill="hsl(290 60% 75%)" name="Tests" radius={[8, 8, 0, 0]} />
                   </BarChart>
                 </ResponsiveContainer>
               </TabsContent>
