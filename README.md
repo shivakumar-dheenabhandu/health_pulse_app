@@ -62,7 +62,7 @@ This project is built with:
 
 ## How can I deploy this project?
 
-Simply open [Lovable](https://lovable.dev/projects/b292afc8-21c2-4384-b31a-692a91e1d469) and click on Share -> Publish.
+Simply open [Lovable](https://healsync-care-hub-35221.lovable.app) and click on Share -> Publish.
 
 ## Can I connect a custom domain to my Lovable project?
 
