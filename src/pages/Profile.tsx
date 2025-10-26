@@ -76,7 +76,7 @@ const Profile = () => {
                 <Phone className="w-5 h-5 text-primary" />
                 <div className="flex-1">
                   <p className="text-xs text-muted-foreground">Phone</p>
-                  <p className="font-medium">+91 98765 43210</p>
+                  <p className="font-medium">+91 99999 00000</p>
                 </div>
               </div>
 
