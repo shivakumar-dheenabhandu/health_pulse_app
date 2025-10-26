@@ -2,7 +2,7 @@
 
 ## Project info
 
-**URL**: https://healsync-care-hub-35221.lovable.app
+**URL**: [health-pulse-app-1818.lovable.app](https://health-pulse-app-1818.lovable.app/auth)
 
 ## How can I edit this code?
 
@@ -10,7 +10,7 @@ There are several ways of editing your application.
 
 **Use Lovable**
 
-Simply visit the [Lovable Project](https://healsync-care-hub-35221.lovable.app) and start prompting.
+Simply visit the [health-pulse-app-1818.lovable.app](https://health-pulse-app-1818.lovable.app/auth) and start prompting.
 
 Changes made via Lovable will be committed automatically to this repo.
 
@@ -62,7 +62,7 @@ This project is built with:
 
 ## How can I deploy this project?
 
-Simply open [Lovable](https://healsync-care-hub-35221.lovable.app) and click on Share -> Publish.
+Simply open [health-pulse-app-1818.lovable.app](https://health-pulse-app-1818.lovable.app/auth) and click on Share -> Publish.
 
 ## Can I connect a custom domain to my Lovable project?
 
